@@ -5,19 +5,10 @@
     android:layout_height="match_parent"
     tools:context="com.example.hannabotar.helloworld.MainActivity">
 
-    <TextView
+    <ImageView
+        android:src="@drawable/birthday"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:background="@android:color/darker_gray"
-        android:text="Hello World!"
-        android:textColor="#ffff99"/>
-
-    <TextView
-        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_green_dark"
-        android:text="Hello again! How are you?"
-        android:textSize="20sp"
-        android:textColor="@android:color/black"/>
+        android:scaleType="centerInside"/>
 
 </LinearLayout>
