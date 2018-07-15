@@ -1,6 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#8fd1ef">
+
+        <ImageView
+            android:id="@+id/album_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/album_image"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="8dp"/>
+
+        <TextView
+            android:id="@+id/artist_text_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mumford and Sons"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/album_image1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Babel"
+            android:textSize="16sp"
+            android:layout_toRightOf="@+id/album_image1"
+            android:layout_below="@+id/artist_text_view1"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#8fd1ef">
+
+        <ImageView
+            android:id="@+id/album_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/album_image"
+            android:scaleType="centerCrop"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:id="@+id/artist_text_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dire Straits"
+            android:textSize="20sp"
+            android:layout_toLeftOf="@+id/album_image2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brothers in arms"
+            android:textSize="16sp"
+            android:layout_toLeftOf="@+id/album_image2"
+            android:layout_below="@+id/artist_text_view2"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#8fd1ef">
+
+        <ImageView
+            android:id="@+id/album_image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/album_image"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="8dp"/>
+
+        <TextView
+            android:id="@+id/artist_text_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rudimental"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/album_image3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unknown album"
+            android:textSize="16sp"
+            android:layout_toRightOf="@+id/album_image3"
+            android:layout_below="@+id/artist_text_view3"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
 
 </LinearLayout>

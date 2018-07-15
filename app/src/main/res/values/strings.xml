@@ -1,3 +1,6 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Hello World</string>
+
+    <string name="order_email_subject">New order for <xliff:g id="name" example="John Doe">%s</xliff:g></string>
+
 </resources>
