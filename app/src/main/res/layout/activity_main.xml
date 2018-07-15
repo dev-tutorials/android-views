@@ -5,10 +5,23 @@
     android:layout_height="match_parent"
     tools:context="com.example.hannabotar.helloworld.MainActivity">
 
-    <ImageView
-        android:src="@drawable/birthday"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Inventory"
+        android:textColor="@android:color/black"
+        android:background="#ff0000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order history"
+        android:textColor="@android:color/black"
+        android:background="#00ff00"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supplier products"
+        android:textColor="@android:color/black"
+        android:background="#0000ff"/>
 
 </LinearLayout>
