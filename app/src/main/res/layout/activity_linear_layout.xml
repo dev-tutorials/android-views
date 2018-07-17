@@ -15,15 +15,15 @@
         android:background="#ff0000"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:text="Order history"
+        android:layout_weight="3"
         android:textColor="@android:color/black"
         android:background="#00ff00"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
         android:text="Supplier products"
         android:textColor="@android:color/black"
         android:background="#0000ff"/>

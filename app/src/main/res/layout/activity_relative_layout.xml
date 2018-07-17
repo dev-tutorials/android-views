@@ -7,10 +7,10 @@
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_alignParentTop="true"
+
         android:scaleType="centerCrop"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/birthday"/>
+        android:layout_centerInParent="true"
+        android:src="@drawable/birthday" />
 
     <TextView
         android:layout_width="wrap_content"

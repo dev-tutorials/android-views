@@ -2,5 +2,7 @@
     <string name="app_name">Hello World</string>
 
     <string name="order_email_subject">New order for <xliff:g id="name" example="John Doe">%s</xliff:g></string>
+    <string name="mumford_and_sons">Mumford and Sons</string>
+    <string name="babel">Babel</string>
 
 </resources>
